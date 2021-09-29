@@ -1,0 +1,69 @@
+what is html?
+        html stands for hyper text markup language 
+        html is the standard markup language for creating web pages
+        html describes the structure of web page 
+        html consists of a series of element 
+        html elements tell the browswer how to display the content
+what is <!DOCTYPE html>?
+        It defines that this documents is an html5 document.
+        It must be written in the top of the page 
+        we are giving information to the browser  that this document is an html document
+        Browser also compiles the html document by following html5 standards
+what is  <html>?
+         This is the root element in html page 
+		 
+what is <head>?
+        It contains meta information about the page
+what is <title>?
+      	It specifies a title for the html page.
+		It is show in the browser's title bar or in the page's tab.
+what is <body>?
+		It defines the document's body.
+		It is a container for all the visible content 
+		The content that is written in this element only visible in the web page
+what is <h1>?
+		It defines a large heading,here in this we are having from <h1>to<h6>.
+what is <p>?
+        This element define a paragraph.
+what is an html element?
+        An html element is defined by a start tag,some content,and end tag
+ 		<tagname>content goes here...</tagname>
+what is Neasted html element?
+		html elements can be nested (this means that elemnet can contain other element).
+		All html Documents consits of nested html elements
+		The following example contain four html element (<html>,<body>,<h1>and <p>)
+what is html Attributes?
+		All html elements can have attributes
+		Attributes provide additional information about elements
+		Attributes are always specified in the start tag
+		Attributes usually come in name/value pairs like:name="value"
+what is href attrubutes?
+        The <a> tag defines a hyperlink .The href attributes specifies the URL of the page the link goes to 		
+what is src attributes?
+		The <img> tag is used o embed an image in an html page. the src attribute specifies the  path to the image to be displayed
+what is Absolute URL?
+		Links to an external image that is hosted on another website
+		example:src "https://www.w3schools.com/images/img-girl.jpg".
+what is relative URL?
+		Links to an image that is hosted within the website.here ,the URL does not include the domain name. if the URL begins without a slash,
+		it will be relative to the current page.
+what is width and height Attributes?
+		The <img> tag should also contain the width and height attributes ,which specifies the width and height of the image (in pixels)
+		
+what is an alt attribute?
+		The required alt attributes for the <img> tag specifies an alternate texr for an image, if the image for some reason cannot be displayed.
+		this can be due to slow connection ,or an error in the src attributes ,or if the user uses a screen reader
+		
+what is style Attributes?
+		The style Attributes is used to add style to an element,such as color,font,size and more	
+what is html headings?
+		html headings are titles or subtitles that you want to display on a webpage
+what is html paragraphs ?
+        The html <p> elements defines a paragraph.
+ 		A paragraph always starts on a new line, and browser automatically add some white space (a margin) before and after a paragraph 
+what is HTML Line Breaks?
+       The HTML <br> element defines a line break.
+       Use <br> if you want a line break (a new line) without starting a new paragraph:
+what is HTML <pre> Element?
+       The HTML <pre> element defines preformatted text.
+       The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
