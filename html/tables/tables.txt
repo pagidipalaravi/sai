@@ -1,29 +1,29 @@
-HTML Tables
+HTML Tables?
   HTML tables allow web developers to arrange data into rows and columns.
 
-Define an HTML Table
+Define an HTML Table?
   A table in HTML consists of table cells inside rows and columns
-Table Cells
+Table Cells?
   Each table cell is defined by a <td> and a </td> tag.
   td stands for table data.
   Everything between <td> and </td> are the content of the table cell.
-Table Rows
+Table Rows?
   Each table row starts with a <tr> and end with a </tr> tag.
   tr stands for table row
-Table Headers
+Table Headers?
   Sometimes you want your cells to be headers, in those cases use the <th> tag instead of the <td> tag:
-How To Add a Border
+How To Add a Border?
   When you add a border to a table, you also add borders around each table cells
   To add a border, use the CSS border property on table, th, and td elements
-Collapsed Table Borders
+Collapsed Table Borders?
   To avoid having double borders like in the example above, set the CSS border-collapse property to collapse.
   This will make the borders collapse into a single border:  
-Style Table Borders
+Style Table Borders?
   If you set a background color of each cell, and give the border a white color (the same as the document background),
   you get the impression of an invisible border  
-Round Table Borders
+Round Table Borders?
   With the border-radius property, the borders get rounded corners
-Dotted Table Borders
+Dotted Table Borders?
   With the border-style property, you can set the appereance of the border.  
   dotted     
   dashed     
@@ -35,63 +35,63 @@ Dotted Table Borders
  outset     
   none     
   hidden
-Border Color
+Border Color?
  With the border-color property, you can set the color of the border.  
  
-HTML Table Width
+HTML Table Width?
   To set the width of a table, add the style attribute to the <table> element
-HTML Table Column Width
+HTML Table Column Width?
   To set the size of a specific column, add the style attribute on a <th> or <td> element:
-HTML Table Row Height
+HTML Table Row Height?
   To set the height of a specific row, add the style attribute on a table row element:
-HTML Table Headers
+HTML Table Headers?
   Table headers are defined with th elements, each th element represents a table cell  
-Vertical Table Headers
+Vertical Table Headers?
   To use the first column as table headers, define the first cell in each row as a th element  
-Align Table Headers
+Align Table Headers?
   By default, table headers are bold and centered
   To left-align the table headers, use the CSS text-align property:
-Header for Multiple Columns
+Header for Multiple Columns?
   You can have a header that spans over two or more columns  
   To do this, use the colspan attribute on the <th> element
-Table Caption
+Table Caption?
   You can add a caption that serves as a heading for the entire table  
   To add a caption to a table, use the <caption> tag:
-HTML Table Padding & Spacing
+HTML Table Padding & Spacing?
   HTML tables can adjust the padding inside the cells, and also the space between the cells.
-HTML Table - Cell Padding
+HTML Table - Cell Padding?
  Cell padding is the space between the cell edges and the cell content.
  By default the padding is set to 0.
  To add padding on table cells, use the CSS padding property:
  To add padding only above the content, use the padding-top property.
  And the others sides with the padding-bottom, padding-left, and padding-right properties:
-HTML Table - Cell Spacing
+HTML Table - Cell Spacing?
  Cell spacing is the space between each cell.
  By default the space is set to 2 pixels.
  To change the space between table cells, use the CSS border-space property on the table element: 
-HTML Table - Colspan
+HTML Table - Colspan?
   To make a cell span over multiple columns, use the colspan attribute: 
-HTML Table - Rowspan
+HTML Table - Rowspan?
   To make a cell span over multiple rows, use the rowspan attribute:  
 
-HTML Table - Zebra Stripes
+HTML Table - Zebra Stripes?
   If you add a background color on every other table row, you will get a nice zebra stripes effect. 
   To style every other table row element, use the :nth-child(even) selector like this:
-HTML Table - Vertical Zebra Stripes
+HTML Table - Vertical Zebra Stripes?
   To make vertical zebra stripes, style every other column, instead of every other row  
   Set the :nth-child(even) for table data elements like this  
-Combine Vertical and Horizontal Zebra Stripes
+Combine Vertical and Horizontal Zebra Stripes?
   You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
   If you use a transparent color you will get an overlapping effect.  
   Use an rgba() color to specify the transparency of the color:
-Horizontal Dividers
+Horizontal Dividers?
    If you specify borders only at the bottom of each table row, you will have a table with horizontal dividers.
    Add the border-bottom property to all tr elements to get horizontal dividers: 
-Hoverable Table
+Hoverable Table?
   Use the :hover selector on tr to highlight table rows on mouse over   
-HTML Table Colgroup
+HTML Table Colgroup?
   The <colgroup> element is used to style specific columns of a table.
-HTML Table Colgroup
+HTML Table Colgroup?
   If you want to style the two first columns of a table, use the <colgroup> and <col> elements  
   The <colgroup> element should be used as a container for the column specifications.
 
