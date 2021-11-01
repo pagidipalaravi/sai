@@ -1,0 +1,79 @@
+Unordered HTML List
+   An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+   The list items will be marked with bullets (small black circles) by default
+Ordered HTML List
+  An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+  The list items will be marked with numbers by default:  
+HTML Description Lists
+  HTML also supports description lists.
+  A description list is a list of terms, with a description of each term.
+  The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:  
+Unordered HTML List - Choose List Item Marker
+  The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values: 
+  Value	Description
+   disc	Sets the list item marker to a bullet (default)
+   circle	Sets the list item marker to a circle
+  square	Sets the list item marker to a square
+  none	The list items will not be marked  
+Nested HTML Lists
+   Lists can be nested (list inside list) Horizontal List with CSS
+Horizontal List with CSS
+  HTML lists can be styled in many different ways with CSS.
+  One popular way is to style a list horizontally, to create a navigation menu:
+Ordered HTML List - The Type Attribute
+  The type attribute of the <ol> tag, defines the type of the list item marker: 
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+Control List Counting
+  By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute:  
+HTML Block and Inline Elements
+    Every HTML element has a default display value, depending on what type of element it is.
+    There are two display values: block and inline. 
+Block-level Elements
+  A block-level element always starts on a new line.
+  A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+  A block level element has a top and a bottom margin, whereas an inline element does not
+   The <div> element is a block-level element
+Inline Elements
+   An inline element does not start on a new line.
+  An inline element only takes up as much width as necessary.
+  This is a <span> element inside a paragraph.  
+The <div> Element
+   The <div> element is often used as a container for other HTML elements.
+   The <div> element has no required attributes, but style, class and id are common.
+   When used together with CSS, the <div> element can be used to style blocks of content  
+The <span> Element
+   The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+   The <span> element has no required attributes, but style, class and id are common.
+   When used together with CSS, the <span> element can be used to style parts of the text  
+HTML class Attribute
+  The HTML class attribute is used to specify a class for an HTML element.
+  Multiple HTML elements can share the same class
+Using The class Attribute
+  The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+  In the following example we have three <div> elements with a class attribute with the value of "city". 
+  All of the three <div> elements will be styled equally according to the 
+  .city style definition in the head section:
+The Syntax For Class
+  To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:  
+Multiple Classes
+HTML elements can belong to more than one class.
+  To define multiple classes, separate the class names with a space, e.g. <div class="city main">.
+  The element will be styled according to all the classes specified.
+  In the following example, the first <h2> element belongs to both the city class and also to the main class,
+  and will get the CSS styles from both of the classes  
+Different Elements Can Share Same Class
+  Different HTML elements can point to the same class name.
+  In the following example, both <h2> and <p> points to the "city" class and will share the same style:
+Use of The class Attribute in JavaScript
+  The class name can also be used by JavaScript to perform certain tasks for specific elements.
+  JavaScript can access elements with a specific class name with the getElementsByClassName() method:  
+  
+  
+
+
+   

@@ -40,7 +40,7 @@ what is html Attributes?
 what is href attrubutes?
         The <a> tag defines a hyperlink .The href attributes specifies the URL of the page the link goes to 		
 what is src attributes?
-		The <img> tag is used o embed an image in an html page. the src attribute specifies the  path to the image to be displayed
+		The <img> tag is used to embed an image in an html page. the src attribute specifies the  path to the image to be displayed
 what is Absolute URL?
 		Links to an external image that is hosted on another website
 		example:src "https://www.w3schools.com/images/img-girl.jpg".

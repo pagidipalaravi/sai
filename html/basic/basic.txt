@@ -1,0 +1,21 @@
+html Documents
+All html Documents start with a documents type declaration <!Doctype html>
+The html documents itself  begins  with <html> and end with </html>
+The visible part of the  html documents is <body> and </body>
+ 
+The <!Doctype> Declaration 
+ The <!Doctype> Declaration represents the Documents type, and help browser to display webpage correctly
+ It must only appear once,at the top of the page (before any html tags)
+ <!Doctype> declaration is not case sensitive
+ <!Doctype> declaration  for html5
+ 
+html Headings
+ html heading are defined with the <h1> to <h6> tags.
+ <h1>defines the most important Heading and <h6> Defines the least important heading 
+html paragraphs
+  html paragraph is defines with <p>tag
+html links
+ html links are defined with <a>tag 
+html images 
+ html images are defined with the <img> tag.
+ the source file(src),alternative text (alt),width and height are provided as attributes:

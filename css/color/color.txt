@@ -1,0 +1,15 @@
+CSS Colors
+  Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+CSS Color Names
+  In CSS, a color can be specified by using a predefined color name
+CSS Background Color
+  You can set the background color for HTML elements:
+CSS Text Color
+ You can set the color of text: 
+CSS Border Color
+  You can set the color of borders:.
+CSS Color Values
+  In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:
+  Same as color name "Tomato":  
+
+  

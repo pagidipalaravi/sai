@@ -1,0 +1,21 @@
+HTML Comments
+HTML comments are not displayed in the browser, but they can help document your HTML source code.
+
+HTML Comment Tag
+You can add comments to your HTML source by using the following syntax
+<!-- Write your comments here -->
+Add Comments
+   With comments you can place notifications and reminders in your HTML code:
+   <!-- This is a comment -->
+   <p>This is a paragraph.</p>
+   <!-- Remember to add more information here -->
+what is Hide Content?
+  Comments can be used to hide content.
+  Which can be helpful if you hide content temporarily:
+  <p>This is a paragraph.</p>
+  <!-- <p>This is another paragraph </p> -->
+  <p>This is a paragraph too.</p>
+what is Hide Inline Content
+    Comments can be used to hide parts in the middle of the HTML code. 
+    <p>This <!-- great text --> is a paragraph.</p>
+	

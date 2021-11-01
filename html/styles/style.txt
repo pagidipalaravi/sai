@@ -1,0 +1,17 @@
+what is html style?
+    The html style attributes is used to add styles to an element,such as color,font,size,and more
+What html style attribute
+    setting the style of an html elements,can be done with the style attribute
+    The html style attributes has the following syntax
+    <tagname style="property:value;"> 	
+what is background color?
+    The css backgrond-color property defines the background color for an html element
+what is a text color?
+    The css color property defines the text color for an html element
+what is a fonts?
+    The css font-family property defines the font to be used for an html element
+what is text size
+    The css font size property defines the text size for an html element
+what is text alignment?
+     The css text-align property defines the horizontal text alignment for an html element 	
+	  

@@ -1,0 +1,40 @@
+HTML Links - Hyperlinks
+   HTML links are hyperlinks.
+   You can click on a link and jump to another document.
+   When you move the mouse over a link, the mouse arrow will turn into a little hand.
+HTML Links - Syntax
+  The HTML <a> tag defines a hyperlink. It has the following syntax:   
+  
+ By default, links will appear as follows in all browsers:
+
+    An unvisited link is underlined and blue
+    A visited link is underlined and purple
+    An active link is underlined and red
+	
+HTML Links - The target Attribute
+  By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+  The target attribute specifies where to open the linked document.
+  The target attribute can have one of the following values:
+
+  _self - Default. Opens the document in the same window/tab as it was clicked
+  _blank - Opens the document in a new window or tab
+  _parent - Opens the document in the parent frame
+  _top - Opens the document in the full body of the window
+Absolute URLs vs. Relative URLs
+   Both examples above are using an absolute URL (a full web address) in the href attribute.
+   A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):  
+HTML Links - Use an Image as a Link
+   To use an image as a link, just put the <img> tag inside the <a> tag: 
+Link to an Email Address
+   Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):  
+Button as a Link
+  To use an HTML button as a link, you have to add some JavaScript code.
+  JavaScript allows you to specify what happens at certain events, such as a click of a button:   
+Link Titles
+  The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element 
+Link Buttons
+  A link can also be styled as a button, by using CSS
+Create a Bookmark in HTML
+  Bookmarks can be useful if a web page is very long.
+  To create a bookmark - first create the bookmark, then add a link to it.
+  When the link is clicked, the page will scroll down or up to the location with the bookmark  

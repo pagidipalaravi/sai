@@ -1,0 +1,22 @@
+HTML Colors
+
+what is Background Color?
+  You can set the background color for HTML elements:
+  <h1 style="background-color:DodgerBlue;">Hello World</h1>
+  <p style="background-color:Tomato;">Lorem ipsum...</p>
+what is Text Color?
+   You can set the color of text
+   <h1 style="color:Tomato;">Hello World</h1>
+   <p style="color:DodgerBlue;">Lorem ipsum...</p>
+  <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+what is Border Color?
+   You can set the color of borders
+   <h1 style="border:2px solid Tomato;">Hello World</h1>
+   <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+   <h1 style="border:2px solid Violet;">Hello World</h1>
+ what is Color Values?
+  In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+  The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+  rgb(255, 99, 71)
+  #ff6347
+  hsl(9, 100%, 64%) 
